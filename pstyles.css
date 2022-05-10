@@ -1,0 +1,308 @@
+* {box-sizing:border-box}
+body{ font-family:verdana; 
+      background-color:dimgrey;
+   
+}
+header{ position: absolute;
+        background-color:#000;
+        width:100%;
+        top:0;
+        left:0;
+        height:100px;
+        
+}
+._logo_{height:100px;
+        margin: auto;
+        position: absolute;
+        top:0;
+  
+}
+.nav-link li{ display: inline-block;
+              margin: 0 15px;
+              position: relative;
+              left:850px;
+  
+}
+.nav-link li a{ text-decoration: none;
+                color: white;
+                padding:5px 0;
+                position: relative;
+}
+.btne{background:white;
+     padding:10px 30px;
+      color:#black;
+      border-radius:14px;
+      cursor: pointer; 
+}
+ .nav-link li a::after{
+  content:'';
+  background:white;
+   width:0;
+  height:2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition:width 0.5s;
+  
+}
+.nav-link li a:hover::after{
+  width:100%;
+  
+}
+.frontp{ position:absolute;
+         background-color:grey;
+         top:100px;
+         width:100%;
+         left:0;
+}
+  
+._mc{height:550px;
+     width:100%;
+}
+p{display:inline;
+  padding-left:225px;
+}
+.logo22{height:200px;
+        max-width: 1000px;
+  position: relative;
+  margin: auto;
+  top:230px;
+  left:13%;
+   
+  
+}
+.welcome h1{color:white;
+          font-family:"Arial",sans-sanif;
+          position:absolute;
+          top:130px;
+          left:35%;
+       
+  
+}
+.txt{position:absolute;
+       top:500px;
+       padding-left:0%;
+       left:14%; 
+       width:1000px;
+       font-size:25px;
+       text-align:justify; 
+       background-color:rgb(240, 240, 240);
+       padding:30px 40px;
+       
+      
+      
+     
+}
+.strip1{position:absolute;
+        top:109px;
+        color:white;
+        left:18%;
+}
+.strip2{position:absolute;
+        color:white;
+        top:159px;
+        left:18%;
+
+  
+}
+
+
+.pimg{width:350px;
+height:350px;
+position:absolute;
+top: 900px;
+right:50px;
+  
+}
+.chead{ position:absolute;
+        top: 700px;
+        left:42%;
+        color:white;
+}
+.pimg2{width:350px;
+height:350px;
+position:relative;
+top: 675px;
+left:508px;
+  
+}
+.pimg3{width:350px;
+height:350px;
+position:absolute;
+top: 900px;
+left:50px;
+  
+}
+
+.wc{ position:absolute;
+     top:800px;
+     padding-left:50px;
+     color:white;
+     font-family:"Arial",sans-sanif;
+     font-style:bold;
+     font-size:23px;
+} 
+.pricing{ position:absolute;
+          top: 1300px;
+         padding-left:0%;
+         left:133px;
+         width:1100px;
+         font-size:25px;
+         text-align:justify;
+         background-color:rgb(240, 240, 240); 
+         padding:30px 40px;
+}
+
+
+.pimg4{width:350px;
+height:350px;
+position:absolute;
+top: 2250px;
+right:50px;
+  
+}
+
+
+
+.pimg5{width:350px;
+height:350px;
+position:absolute;
+top: 2250px;
+left:508px;
+  
+}
+.pimg6{width:350px;
+height:350px;
+position:absolute;
+top: 2250px;
+left:50px;
+  
+}
+.mc{ position:absolute;
+     top:2150px;
+     padding-left:50px;
+     color:white;
+     font-family:"Arial",sans-sanif;
+     font-style:bold;
+     font-size:23px;
+} 
+
+.pimg7{width:350px;
+height:350px;
+position:absolute;
+top: 1575px;
+right:50px;
+  
+}
+
+
+
+.pimg8{width:350px;
+height:350px;
+position:absolute;
+top: 1575px;
+left:508px;
+  
+}
+.pimg9{width:350px;
+height:350px;
+position:absolute;
+top: 1575px;
+left:50px;
+  
+}
+
+.pricingm{position: absolute;
+          top:2650px;
+          left:135px;
+          padding-left:0px;
+          left:133px;
+         width:1100px;
+         font-size:25px;
+         text-align:justify;
+         background-color:rgb(240, 240, 240); 
+         padding:30px 40px;
+}
+
+.male1{width:350px;
+height:350px;
+position:absolute;
+top: 2950px;
+right:50px;
+  
+}
+
+
+
+.male2{width:350px;
+height:350px;
+position:absolute;
+top: 2950px;
+left:508px;
+  
+}
+.male3{width:350px;
+height:350px;
+position:absolute;
+top: 2950px;
+left:50px;
+  
+}
+
+
+.footer_{ position: absolute;
+        background-color:black;
+        top:3380px;
+        width:100%;
+        left:0;
+        height:150px;
+        color:white; 
+  
+}
+.contus{position:absolute;
+        padding-left:0;
+        left:643px;
+        top:10px;
+        
+}
+.email{position:absolute;
+        left:800px;
+        top:50px;
+        padding-left:0;
+  
+}
+.wa_{position:absolute;
+        left:200px;
+        top:50px; 
+        padding-left:0;
+       
+}
+.pn_{ position:absolute;
+        left:500px;
+        top:50px;
+        font-family:"Arial",sans-sanif;
+        padding-left:0;
+  
+}
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
